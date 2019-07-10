@@ -1,0 +1,7 @@
+target “GanttChart” do
+    pod 'ZMJGanttChart'
+end
+
+
+
+

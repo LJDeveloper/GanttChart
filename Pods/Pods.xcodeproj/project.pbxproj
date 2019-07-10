@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B00507360034340B36A560A2EC800BC /* ReuseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA0F233057CCC7269531CF28632E972 /* ReuseQueue.m */; };
+		13317C93A7B4D8BF43515AC8D0047026 /* ZMJGanttChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2100FB59C278CBDE012EE944604A90C1 /* ZMJGanttChart-dummy.m */; };
+		1F275AE44C41C4FAEE22597224BBC91D /* SpreadsheetView+CirclularScrolling.h in Headers */ = {isa = PBXBuildFile; fileRef = 6134C68F0BD3C1FFC00404FDC954680B /* SpreadsheetView+CirclularScrolling.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22CC34A63A3C12CAF7AEDB6C818E6E1D /* NSDictionary+WBGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D09F246E3E652CAE8D4D8E734CBA15A /* NSDictionary+WBGAdd.m */; };
+		25A81D2A24C2657C2181B062F559AEF6 /* ZMJScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D441932D57A69B13100FD089205B27BB /* ZMJScrollView.m */; };
+		26225C3502E612D78149FC9DA1341312 /* SpreadsheetView+UIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB6053134FA2754DED620E1B43633B7 /* SpreadsheetView+UIScrollView.m */; };
+		284347518D7BC3D3E90FC0D524EECE26 /* NSArray+WBGAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F81BE2862ED763F8EFF48ACA3178023 /* NSArray+WBGAddition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2CFA93F6DCAF7294D5886E1365525C06 /* Borders.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A72F52CDD3E812CB5CC6CD322EF3B32 /* Borders.m */; };
+		312C3DD3DE89DD0193E4DD4152282630 /* SpreadsheetViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AB154DD54605BD125359C632B49BE41 /* SpreadsheetViewDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		384F97F29083B6E6974323364AECED7E /* SpreadsheetView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = DC79ADA9F9597145E6E105E4B0F29109 /* SpreadsheetView+Layout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3EA6AE6E50E5494DDD5ACE2D3D38D5B5 /* SpreadsheetView+Touches.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E3E6414F268BF169B26BC9FA5806FC /* SpreadsheetView+Touches.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3FF852FA7F87154C3183C87E82244568 /* SpreadsheetView+UIScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E0F846EF6BA8DE85D9ABBABC6C0EBB /* SpreadsheetView+UIScrollView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48204CB1455945C44E247ED573CC72D1 /* ZMJCellRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C123B0FA7EF20FDBED0B21984CE7187 /* ZMJCellRange.m */; };
+		4DDA9F16D886B285C25C765E60838135 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6603D86FE202A02F26030120C98BE3 /* Address.m */; };
+		5003517F6A5CC89C0F6D6BE12AC6E38C /* NSArray+WBGAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E05EC081052870A552330C3F34523AA /* NSArray+WBGAddition.m */; };
+		52925185C792569ABCD4711354B0C3FA /* Gridlines.m in Sources */ = {isa = PBXBuildFile; fileRef = 28627788DEF0195CDB76811381AF17CC /* Gridlines.m */; };
+		5BDDF953F08DC33BE71DC1EEB85F9999 /* Address.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E57F7E5552E65396111C9AE97371E31 /* Address.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		67C778DE9120021A143C9D00433D499B /* ZMJScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = E46345F2DA52E63204E632B35982AA14 /* ZMJScrollView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		691716A3AFF0B693F044601599ABA260 /* Borders.h in Headers */ = {isa = PBXBuildFile; fileRef = C3829186D0C91679ED771089F39A7AFB /* Borders.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		846D5BAE4DE4A372A38042D413917AAF /* SpreadsheetView+CirclularScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAD8488D9B7FE256234EF06FB95BD1E /* SpreadsheetView+CirclularScrolling.m */; };
+		856B8ABE21AD43798BAFCC08A9190335 /* NSIndexPath+column.m in Sources */ = {isa = PBXBuildFile; fileRef = 2404DAA797FAC09CAC4C798217A71EE5 /* NSIndexPath+column.m */; };
+		91316A3B29AC95C7A6F1DDD9440DD2C6 /* SpreadsheetView+UIViewHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = D595F7E3C84CD3620656803A8250527D /* SpreadsheetView+UIViewHierarchy.m */; };
+		923B440A6F2FE665B53C970FE54975C2 /* SpreadsheetView+UIScrollViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5257B202712563FDE5B9C43D4CC340F /* SpreadsheetView+UIScrollViewDelegate.m */; };
+		95AAB4612B1A16333365EA5CCA426AE4 /* SpreadsheetView.h in Headers */ = {isa = PBXBuildFile; fileRef = A58A29A9A9C78AFC1050CC005D465922 /* SpreadsheetView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A402E6F81C579D3AACF289028ADA6A1 /* SpreadsheetView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = EB98256D1734A794F0C9EAD45CD55755 /* SpreadsheetView+Layout.m */; };
+		9E23BA7F72AC8299BAD3A5E1AD967BA9 /* ZMJCellRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FA171C8F6849691918EA3FF59F3B67 /* ZMJCellRange.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A519803471ED26EBDCB800E52DB87D16 /* ZMJCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 96CC18634FBC9812643D0C17B28A376F /* ZMJCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A84AF169BD5146C5A2982619E86843D3 /* ReuseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4954B08E5931A763D159B18EB137D4 /* ReuseQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A917091871A9837AAC2529667F615642 /* Pods-GanttChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D0E49CF14445DB71CF99557F655F87 /* Pods-GanttChart-dummy.m */; };
+		AA94E8E923F69217BDF7C2795AD94862 /* Location.h in Headers */ = {isa = PBXBuildFile; fileRef = 45CD1C03C20475A4F868F11C9805E999 /* Location.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE05CA8B98F768E2140F26D4EE7B93F7 /* SpreadsheetView+UISnapshotting.h in Headers */ = {isa = PBXBuildFile; fileRef = 854CA98B5B7B3F8D7D63ADC51E1B1E97 /* SpreadsheetView+UISnapshotting.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B33CCEE1BB4EF6ECECBA6F8979385446 /* Define.h in Headers */ = {isa = PBXBuildFile; fileRef = 569EBFE7CD967D35310EB3DF6239F2BC /* Define.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA89070AD0F92A94CAB861691432347C /* SpreadsheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5DA7A201B4800006A89BDA77F5950 /* SpreadsheetView.m */; };
+		BFBD5810A1DEFB81FDD035972D75D520 /* SpreadsheetView+UISnapshotting.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6590ACA4CDA7AA26AD3085549E824C /* SpreadsheetView+UISnapshotting.m */; };
+		BFDFC8F03C2CAE3F7A38BFA45232037A /* ZMJCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F896D280B269D86DD3E4293D4EFD136A /* ZMJCell.m */; };
+		C1CFA2E2EF3B8928D0FEB4A6EFC32A43 /* NSDictionary+WBGAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8338B15BB2CBEAE6262D8A669A5F04 /* NSDictionary+WBGAdd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8D2881416617F7F27B6F2253C0F8FA2 /* SpreadsheetViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F5DF436D96C75272E3D009E1FD2BD79 /* SpreadsheetViewDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CCF89D217607D558D9CB62C1E3193203 /* SpreadsheetView+UIScrollViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 851179B0D6ECCDB7C89F49611DFA29A1 /* SpreadsheetView+UIScrollViewDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CEA67CCC9F2CDA5CCAC00754E6B3402C /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4FA607621E1DABC4FF673327E1F65 /* Location.m */; };
+		D27DCFB569822058FC3B2ADA74BCF235 /* SpreadsheetView+UIViewHierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA006CEA02ADA672E580DF26ADD6D88 /* SpreadsheetView+UIViewHierarchy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D324ECA6230555F207B73339FAB35DE5 /* Gridlines.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B29F21299897173BD217ADD28B87D3 /* Gridlines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD436042F4EACF5D2B9C5B811B646A28 /* NSArray+BinarySearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 997866F56C1F46D4CEE92FAC4FCD07A5 /* NSArray+BinarySearch.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD6E6C01EF8F038DF8CD4D83280F1E6B /* CircualrScrolling.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C522ECEA3E6BED885E99AACB505F8F /* CircualrScrolling.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E23BA5CDCD0F15915DE9377DC63D24E8 /* ZMJGanttChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CF61F5F17227E017E10CA1B39022D47 /* ZMJGanttChart.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E58A752E8A3EA8F721111406DCFF0C1F /* ZMJLayoutEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6C4C20E11DB1FE106F00CA30750D6C /* ZMJLayoutEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF9F16030BB71CBA04DFF4AFF49C182E /* NSIndexPath+column.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE2A3BC20EF493F04026B9B9057B7C7 /* NSIndexPath+column.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1CCEA7DF54CFFBB551FB761E7993593 /* CircualrScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A83F10DF65391EE28F65D2E665E79 /* CircualrScrolling.m */; };
+		F8F6DF41C8ADBFAB08A2E2192BB2D6F5 /* ZMJLayoutEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CE845DF80273448EF36E779510C3BE4A /* ZMJLayoutEngine.m */; };
+		FE8FC34E9BC7E1DAB703903381310C17 /* NSArray+BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D8005CC6093DCC0B5892D7EEF0620 /* NSArray+BinarySearch.m */; };
+		FFA6B8155EC841217136D6677C28F197 /* SpreadsheetView+Touches.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC5C42A14113B4B22ECFEA53CB0A7BA /* SpreadsheetView+Touches.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D39F39AEB54EDEA3403E6A8D7B1955B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 568F387913BDA07B26BCF6F335DEEDD1;
+			remoteInfo = ZMJGanttChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014A83F10DF65391EE28F65D2E665E79 /* CircualrScrolling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CircualrScrolling.m; path = ZMJGanttChart/Classes/CircualrScrolling.m; sourceTree = "<group>"; };
+		04FA171C8F6849691918EA3FF59F3B67 /* ZMJCellRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJCellRange.h; path = ZMJGanttChart/Classes/ZMJCellRange.h; sourceTree = "<group>"; };
+		0A9FF356F778E288179B66D9AD2ED794 /* Pods-GanttChart-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GanttChart-acknowledgements.plist"; sourceTree = "<group>"; };
+		0EA006CEA02ADA672E580DF26ADD6D88 /* SpreadsheetView+UIViewHierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+UIViewHierarchy.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+UIViewHierarchy.h"; sourceTree = "<group>"; };
+		0F2C4EAF9038C3881323F70118F6A2A8 /* Pods-GanttChart-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GanttChart-acknowledgements.markdown"; sourceTree = "<group>"; };
+		18E4FA607621E1DABC4FF673327E1F65 /* Location.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = ZMJGanttChart/Classes/Location.m; sourceTree = "<group>"; };
+		1A72F52CDD3E812CB5CC6CD322EF3B32 /* Borders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Borders.m; path = ZMJGanttChart/Classes/Borders.m; sourceTree = "<group>"; };
+		1E05EC081052870A552330C3F34523AA /* NSArray+WBGAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+WBGAddition.m"; path = "ZMJGanttChart/Classes/NSArray+WBGAddition.m"; sourceTree = "<group>"; };
+		1F6C4C20E11DB1FE106F00CA30750D6C /* ZMJLayoutEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJLayoutEngine.h; path = ZMJGanttChart/Classes/ZMJLayoutEngine.h; sourceTree = "<group>"; };
+		2100FB59C278CBDE012EE944604A90C1 /* ZMJGanttChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZMJGanttChart-dummy.m"; sourceTree = "<group>"; };
+		2404DAA797FAC09CAC4C798217A71EE5 /* NSIndexPath+column.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSIndexPath+column.m"; path = "ZMJGanttChart/Classes/NSIndexPath+column.m"; sourceTree = "<group>"; };
+		27C522ECEA3E6BED885E99AACB505F8F /* CircualrScrolling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CircualrScrolling.h; path = ZMJGanttChart/Classes/CircualrScrolling.h; sourceTree = "<group>"; };
+		28627788DEF0195CDB76811381AF17CC /* Gridlines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Gridlines.m; path = ZMJGanttChart/Classes/Gridlines.m; sourceTree = "<group>"; };
+		28E3E6414F268BF169B26BC9FA5806FC /* SpreadsheetView+Touches.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+Touches.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+Touches.h"; sourceTree = "<group>"; };
+		34E0F846EF6BA8DE85D9ABBABC6C0EBB /* SpreadsheetView+UIScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+UIScrollView.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+UIScrollView.h"; sourceTree = "<group>"; };
+		3DA0F233057CCC7269531CF28632E972 /* ReuseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReuseQueue.m; path = ZMJGanttChart/Classes/ReuseQueue.m; sourceTree = "<group>"; };
+		43B29F21299897173BD217ADD28B87D3 /* Gridlines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Gridlines.h; path = ZMJGanttChart/Classes/Gridlines.h; sourceTree = "<group>"; };
+		45CD1C03C20475A4F868F11C9805E999 /* Location.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Location.h; path = ZMJGanttChart/Classes/Location.h; sourceTree = "<group>"; };
+		4C123B0FA7EF20FDBED0B21984CE7187 /* ZMJCellRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJCellRange.m; path = ZMJGanttChart/Classes/ZMJCellRange.m; sourceTree = "<group>"; };
+		542689B3CBE7DB047F480BA2EDE3AB7E /* Pods-GanttChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GanttChart.debug.xcconfig"; sourceTree = "<group>"; };
+		569EBFE7CD967D35310EB3DF6239F2BC /* Define.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Define.h; path = ZMJGanttChart/Classes/Define.h; sourceTree = "<group>"; };
+		5F5DF436D96C75272E3D009E1FD2BD79 /* SpreadsheetViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpreadsheetViewDataSource.h; path = ZMJGanttChart/Classes/SpreadsheetViewDataSource.h; sourceTree = "<group>"; };
+		5F6590ACA4CDA7AA26AD3085549E824C /* SpreadsheetView+UISnapshotting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+UISnapshotting.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+UISnapshotting.m"; sourceTree = "<group>"; };
+		6134C68F0BD3C1FFC00404FDC954680B /* SpreadsheetView+CirclularScrolling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+CirclularScrolling.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+CirclularScrolling.h"; sourceTree = "<group>"; };
+		6F81BE2862ED763F8EFF48ACA3178023 /* NSArray+WBGAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+WBGAddition.h"; path = "ZMJGanttChart/Classes/NSArray+WBGAddition.h"; sourceTree = "<group>"; };
+		7AB154DD54605BD125359C632B49BE41 /* SpreadsheetViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpreadsheetViewDelegate.h; path = ZMJGanttChart/Classes/SpreadsheetViewDelegate.h; sourceTree = "<group>"; };
+		851179B0D6ECCDB7C89F49611DFA29A1 /* SpreadsheetView+UIScrollViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+UIScrollViewDelegate.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+UIScrollViewDelegate.h"; sourceTree = "<group>"; };
+		854CA98B5B7B3F8D7D63ADC51E1B1E97 /* SpreadsheetView+UISnapshotting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+UISnapshotting.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+UISnapshotting.h"; sourceTree = "<group>"; };
+		8736EB7C7B2A3D9D6E197AE758BE62CE /* libPods-GanttChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GanttChart.a"; path = "libPods-GanttChart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE2A3BC20EF493F04026B9B9057B7C7 /* NSIndexPath+column.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSIndexPath+column.h"; path = "ZMJGanttChart/Classes/NSIndexPath+column.h"; sourceTree = "<group>"; };
+		8CF61F5F17227E017E10CA1B39022D47 /* ZMJGanttChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJGanttChart.h; path = ZMJGanttChart/Classes/ZMJGanttChart.h; sourceTree = "<group>"; };
+		8E57F7E5552E65396111C9AE97371E31 /* Address.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Address.h; path = ZMJGanttChart/Classes/Address.h; sourceTree = "<group>"; };
+		96CC18634FBC9812643D0C17B28A376F /* ZMJCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJCell.h; path = ZMJGanttChart/Classes/ZMJCell.h; sourceTree = "<group>"; };
+		997866F56C1F46D4CEE92FAC4FCD07A5 /* NSArray+BinarySearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+BinarySearch.h"; path = "ZMJGanttChart/Classes/NSArray+BinarySearch.h"; sourceTree = "<group>"; };
+		9AC5DA7A201B4800006A89BDA77F5950 /* SpreadsheetView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpreadsheetView.m; path = ZMJGanttChart/Classes/SpreadsheetView.m; sourceTree = "<group>"; };
+		9B9D8005CC6093DCC0B5892D7EEF0620 /* NSArray+BinarySearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+BinarySearch.m"; path = "ZMJGanttChart/Classes/NSArray+BinarySearch.m"; sourceTree = "<group>"; };
+		9D09F246E3E652CAE8D4D8E734CBA15A /* NSDictionary+WBGAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+WBGAdd.m"; path = "ZMJGanttChart/Classes/NSDictionary+WBGAdd.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A58A29A9A9C78AFC1050CC005D465922 /* SpreadsheetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpreadsheetView.h; path = ZMJGanttChart/Classes/SpreadsheetView.h; sourceTree = "<group>"; };
+		A7D0E49CF14445DB71CF99557F655F87 /* Pods-GanttChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GanttChart-dummy.m"; sourceTree = "<group>"; };
+		AD4954B08E5931A763D159B18EB137D4 /* ReuseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReuseQueue.h; path = ZMJGanttChart/Classes/ReuseQueue.h; sourceTree = "<group>"; };
+		B091A92B894B203D12E7B0C8158F3ED8 /* Pods-GanttChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GanttChart.release.xcconfig"; sourceTree = "<group>"; };
+		BBB6053134FA2754DED620E1B43633B7 /* SpreadsheetView+UIScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+UIScrollView.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+UIScrollView.m"; sourceTree = "<group>"; };
+		C3829186D0C91679ED771089F39A7AFB /* Borders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Borders.h; path = ZMJGanttChart/Classes/Borders.h; sourceTree = "<group>"; };
+		C8706B4B92D0122B284F94A66A377B99 /* ZMJGanttChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMJGanttChart-prefix.pch"; sourceTree = "<group>"; };
+		CDAB53250AF6B6C22E29BFBB05E55BF1 /* libZMJGanttChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZMJGanttChart.a; path = libZMJGanttChart.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE845DF80273448EF36E779510C3BE4A /* ZMJLayoutEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJLayoutEngine.m; path = ZMJGanttChart/Classes/ZMJLayoutEngine.m; sourceTree = "<group>"; };
+		D441932D57A69B13100FD089205B27BB /* ZMJScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJScrollView.m; path = ZMJGanttChart/Classes/ZMJScrollView.m; sourceTree = "<group>"; };
+		D595F7E3C84CD3620656803A8250527D /* SpreadsheetView+UIViewHierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+UIViewHierarchy.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+UIViewHierarchy.m"; sourceTree = "<group>"; };
+		DBAD8488D9B7FE256234EF06FB95BD1E /* SpreadsheetView+CirclularScrolling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+CirclularScrolling.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+CirclularScrolling.m"; sourceTree = "<group>"; };
+		DC79ADA9F9597145E6E105E4B0F29109 /* SpreadsheetView+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+Layout.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+Layout.h"; sourceTree = "<group>"; };
+		E46345F2DA52E63204E632B35982AA14 /* ZMJScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJScrollView.h; path = ZMJGanttChart/Classes/ZMJScrollView.h; sourceTree = "<group>"; };
+		E50371D313A4F08FC6845C43F404AAFD /* ZMJGanttChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZMJGanttChart.xcconfig; sourceTree = "<group>"; };
+		E5257B202712563FDE5B9C43D4CC340F /* SpreadsheetView+UIScrollViewDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+UIScrollViewDelegate.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+UIScrollViewDelegate.m"; sourceTree = "<group>"; };
+		EB98256D1734A794F0C9EAD45CD55755 /* SpreadsheetView+Layout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+Layout.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+Layout.m"; sourceTree = "<group>"; };
+		EE6603D86FE202A02F26030120C98BE3 /* Address.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Address.m; path = ZMJGanttChart/Classes/Address.m; sourceTree = "<group>"; };
+		F896D280B269D86DD3E4293D4EFD136A /* ZMJCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJCell.m; path = ZMJGanttChart/Classes/ZMJCell.m; sourceTree = "<group>"; };
+		FD8338B15BB2CBEAE6262D8A669A5F04 /* NSDictionary+WBGAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+WBGAdd.h"; path = "ZMJGanttChart/Classes/NSDictionary+WBGAdd.h"; sourceTree = "<group>"; };
+		FFC5C42A14113B4B22ECFEA53CB0A7BA /* SpreadsheetView+Touches.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+Touches.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+Touches.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C1F39D4A3E7B89548A697260FBEE682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BADAF4A7A2F287E7533FAD78FC63BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277CC626B7B7A642A209E76DCAEFAEBF /* Pods-GanttChart */ = {
+			isa = PBXGroup;
+			children = (
+				0F2C4EAF9038C3881323F70118F6A2A8 /* Pods-GanttChart-acknowledgements.markdown */,
+				0A9FF356F778E288179B66D9AD2ED794 /* Pods-GanttChart-acknowledgements.plist */,
+				A7D0E49CF14445DB71CF99557F655F87 /* Pods-GanttChart-dummy.m */,
+				542689B3CBE7DB047F480BA2EDE3AB7E /* Pods-GanttChart.debug.xcconfig */,
+				B091A92B894B203D12E7B0C8158F3ED8 /* Pods-GanttChart.release.xcconfig */,
+			);
+			name = "Pods-GanttChart";
+			path = "Target Support Files/Pods-GanttChart";
+			sourceTree = "<group>";
+		};
+		389BE9597C8677DC7D8437ACC2AC7391 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				277CC626B7B7A642A209E76DCAEFAEBF /* Pods-GanttChart */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4A0FADCE540EF67BC129607E8261B0B4 /* ZMJGanttChart */ = {
+			isa = PBXGroup;
+			children = (
+				8E57F7E5552E65396111C9AE97371E31 /* Address.h */,
+				EE6603D86FE202A02F26030120C98BE3 /* Address.m */,
+				C3829186D0C91679ED771089F39A7AFB /* Borders.h */,
+				1A72F52CDD3E812CB5CC6CD322EF3B32 /* Borders.m */,
+				27C522ECEA3E6BED885E99AACB505F8F /* CircualrScrolling.h */,
+				014A83F10DF65391EE28F65D2E665E79 /* CircualrScrolling.m */,
+				569EBFE7CD967D35310EB3DF6239F2BC /* Define.h */,
+				43B29F21299897173BD217ADD28B87D3 /* Gridlines.h */,
+				28627788DEF0195CDB76811381AF17CC /* Gridlines.m */,
+				45CD1C03C20475A4F868F11C9805E999 /* Location.h */,
+				18E4FA607621E1DABC4FF673327E1F65 /* Location.m */,
+				997866F56C1F46D4CEE92FAC4FCD07A5 /* NSArray+BinarySearch.h */,
+				9B9D8005CC6093DCC0B5892D7EEF0620 /* NSArray+BinarySearch.m */,
+				6F81BE2862ED763F8EFF48ACA3178023 /* NSArray+WBGAddition.h */,
+				1E05EC081052870A552330C3F34523AA /* NSArray+WBGAddition.m */,
+				FD8338B15BB2CBEAE6262D8A669A5F04 /* NSDictionary+WBGAdd.h */,
+				9D09F246E3E652CAE8D4D8E734CBA15A /* NSDictionary+WBGAdd.m */,
+				8BE2A3BC20EF493F04026B9B9057B7C7 /* NSIndexPath+column.h */,
+				2404DAA797FAC09CAC4C798217A71EE5 /* NSIndexPath+column.m */,
+				AD4954B08E5931A763D159B18EB137D4 /* ReuseQueue.h */,
+				3DA0F233057CCC7269531CF28632E972 /* ReuseQueue.m */,
+				A58A29A9A9C78AFC1050CC005D465922 /* SpreadsheetView.h */,
+				9AC5DA7A201B4800006A89BDA77F5950 /* SpreadsheetView.m */,
+				6134C68F0BD3C1FFC00404FDC954680B /* SpreadsheetView+CirclularScrolling.h */,
+				DBAD8488D9B7FE256234EF06FB95BD1E /* SpreadsheetView+CirclularScrolling.m */,
+				DC79ADA9F9597145E6E105E4B0F29109 /* SpreadsheetView+Layout.h */,
+				EB98256D1734A794F0C9EAD45CD55755 /* SpreadsheetView+Layout.m */,
+				28E3E6414F268BF169B26BC9FA5806FC /* SpreadsheetView+Touches.h */,
+				FFC5C42A14113B4B22ECFEA53CB0A7BA /* SpreadsheetView+Touches.m */,
+				34E0F846EF6BA8DE85D9ABBABC6C0EBB /* SpreadsheetView+UIScrollView.h */,
+				BBB6053134FA2754DED620E1B43633B7 /* SpreadsheetView+UIScrollView.m */,
+				851179B0D6ECCDB7C89F49611DFA29A1 /* SpreadsheetView+UIScrollViewDelegate.h */,
+				E5257B202712563FDE5B9C43D4CC340F /* SpreadsheetView+UIScrollViewDelegate.m */,
+				854CA98B5B7B3F8D7D63ADC51E1B1E97 /* SpreadsheetView+UISnapshotting.h */,
+				5F6590ACA4CDA7AA26AD3085549E824C /* SpreadsheetView+UISnapshotting.m */,
+				0EA006CEA02ADA672E580DF26ADD6D88 /* SpreadsheetView+UIViewHierarchy.h */,
+				D595F7E3C84CD3620656803A8250527D /* SpreadsheetView+UIViewHierarchy.m */,
+				5F5DF436D96C75272E3D009E1FD2BD79 /* SpreadsheetViewDataSource.h */,
+				7AB154DD54605BD125359C632B49BE41 /* SpreadsheetViewDelegate.h */,
+				96CC18634FBC9812643D0C17B28A376F /* ZMJCell.h */,
+				F896D280B269D86DD3E4293D4EFD136A /* ZMJCell.m */,
+				04FA171C8F6849691918EA3FF59F3B67 /* ZMJCellRange.h */,
+				4C123B0FA7EF20FDBED0B21984CE7187 /* ZMJCellRange.m */,
+				8CF61F5F17227E017E10CA1B39022D47 /* ZMJGanttChart.h */,
+				1F6C4C20E11DB1FE106F00CA30750D6C /* ZMJLayoutEngine.h */,
+				CE845DF80273448EF36E779510C3BE4A /* ZMJLayoutEngine.m */,
+				E46345F2DA52E63204E632B35982AA14 /* ZMJScrollView.h */,
+				D441932D57A69B13100FD089205B27BB /* ZMJScrollView.m */,
+				4E146A2D1BE0F847F490AC7BC554B895 /* Support Files */,
+			);
+			name = ZMJGanttChart;
+			path = ZMJGanttChart;
+			sourceTree = "<group>";
+		};
+		4E146A2D1BE0F847F490AC7BC554B895 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E50371D313A4F08FC6845C43F404AAFD /* ZMJGanttChart.xcconfig */,
+				2100FB59C278CBDE012EE944604A90C1 /* ZMJGanttChart-dummy.m */,
+				C8706B4B92D0122B284F94A66A377B99 /* ZMJGanttChart-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZMJGanttChart";
+			sourceTree = "<group>";
+		};
+		4F1EF8D6435BB3531A309EB947249028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8736EB7C7B2A3D9D6E197AE758BE62CE /* libPods-GanttChart.a */,
+				CDAB53250AF6B6C22E29BFBB05E55BF1 /* libZMJGanttChart.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				F5CECA9F94B45C2FC73048BC7CF5D568 /* Pods */,
+				4F1EF8D6435BB3531A309EB947249028 /* Products */,
+				389BE9597C8677DC7D8437ACC2AC7391 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5CECA9F94B45C2FC73048BC7CF5D568 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A0FADCE540EF67BC129607E8261B0B4 /* ZMJGanttChart */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E3C0B740DF2079DBB9BCD956DB7333F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54E6EBE73D9718AA964F3998828C5B86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDDF953F08DC33BE71DC1EEB85F9999 /* Address.h in Headers */,
+				691716A3AFF0B693F044601599ABA260 /* Borders.h in Headers */,
+				DD6E6C01EF8F038DF8CD4D83280F1E6B /* CircualrScrolling.h in Headers */,
+				B33CCEE1BB4EF6ECECBA6F8979385446 /* Define.h in Headers */,
+				D324ECA6230555F207B73339FAB35DE5 /* Gridlines.h in Headers */,
+				AA94E8E923F69217BDF7C2795AD94862 /* Location.h in Headers */,
+				DD436042F4EACF5D2B9C5B811B646A28 /* NSArray+BinarySearch.h in Headers */,
+				284347518D7BC3D3E90FC0D524EECE26 /* NSArray+WBGAddition.h in Headers */,
+				C1CFA2E2EF3B8928D0FEB4A6EFC32A43 /* NSDictionary+WBGAdd.h in Headers */,
+				EF9F16030BB71CBA04DFF4AFF49C182E /* NSIndexPath+column.h in Headers */,
+				A84AF169BD5146C5A2982619E86843D3 /* ReuseQueue.h in Headers */,
+				1F275AE44C41C4FAEE22597224BBC91D /* SpreadsheetView+CirclularScrolling.h in Headers */,
+				384F97F29083B6E6974323364AECED7E /* SpreadsheetView+Layout.h in Headers */,
+				3EA6AE6E50E5494DDD5ACE2D3D38D5B5 /* SpreadsheetView+Touches.h in Headers */,
+				3FF852FA7F87154C3183C87E82244568 /* SpreadsheetView+UIScrollView.h in Headers */,
+				CCF89D217607D558D9CB62C1E3193203 /* SpreadsheetView+UIScrollViewDelegate.h in Headers */,
+				AE05CA8B98F768E2140F26D4EE7B93F7 /* SpreadsheetView+UISnapshotting.h in Headers */,
+				D27DCFB569822058FC3B2ADA74BCF235 /* SpreadsheetView+UIViewHierarchy.h in Headers */,
+				95AAB4612B1A16333365EA5CCA426AE4 /* SpreadsheetView.h in Headers */,
+				C8D2881416617F7F27B6F2253C0F8FA2 /* SpreadsheetViewDataSource.h in Headers */,
+				312C3DD3DE89DD0193E4DD4152282630 /* SpreadsheetViewDelegate.h in Headers */,
+				A519803471ED26EBDCB800E52DB87D16 /* ZMJCell.h in Headers */,
+				9E23BA7F72AC8299BAD3A5E1AD967BA9 /* ZMJCellRange.h in Headers */,
+				E23BA5CDCD0F15915DE9377DC63D24E8 /* ZMJGanttChart.h in Headers */,
+				E58A752E8A3EA8F721111406DCFF0C1F /* ZMJLayoutEngine.h in Headers */,
+				67C778DE9120021A143C9D00433D499B /* ZMJScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B0974D57490A833BBCF694C42C5AB1D /* Pods-GanttChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6F1BC168271D27CD0EA28D77CFFB5EC /* Build configuration list for PBXNativeTarget "Pods-GanttChart" */;
+			buildPhases = (
+				3E3C0B740DF2079DBB9BCD956DB7333F /* Headers */,
+				8DCF76850B3F27F477B6D6AD238A9422 /* Sources */,
+				A7BADAF4A7A2F287E7533FAD78FC63BB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7152E7D2757C42814A924982E0F73A9F /* PBXTargetDependency */,
+			);
+			name = "Pods-GanttChart";
+			productName = "Pods-GanttChart";
+			productReference = 8736EB7C7B2A3D9D6E197AE758BE62CE /* libPods-GanttChart.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		568F387913BDA07B26BCF6F335DEEDD1 /* ZMJGanttChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9BF1D364B8419DD94BA10DC3D7E6A0 /* Build configuration list for PBXNativeTarget "ZMJGanttChart" */;
+			buildPhases = (
+				54E6EBE73D9718AA964F3998828C5B86 /* Headers */,
+				78F6CF5C4CD492389AE54BBF08843811 /* Sources */,
+				1C1F39D4A3E7B89548A697260FBEE682 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZMJGanttChart;
+			productName = ZMJGanttChart;
+			productReference = CDAB53250AF6B6C22E29BFBB05E55BF1 /* libZMJGanttChart.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4F1EF8D6435BB3531A309EB947249028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B0974D57490A833BBCF694C42C5AB1D /* Pods-GanttChart */,
+				568F387913BDA07B26BCF6F335DEEDD1 /* ZMJGanttChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78F6CF5C4CD492389AE54BBF08843811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDA9F16D886B285C25C765E60838135 /* Address.m in Sources */,
+				2CFA93F6DCAF7294D5886E1365525C06 /* Borders.m in Sources */,
+				F1CCEA7DF54CFFBB551FB761E7993593 /* CircualrScrolling.m in Sources */,
+				52925185C792569ABCD4711354B0C3FA /* Gridlines.m in Sources */,
+				CEA67CCC9F2CDA5CCAC00754E6B3402C /* Location.m in Sources */,
+				FE8FC34E9BC7E1DAB703903381310C17 /* NSArray+BinarySearch.m in Sources */,
+				5003517F6A5CC89C0F6D6BE12AC6E38C /* NSArray+WBGAddition.m in Sources */,
+				22CC34A63A3C12CAF7AEDB6C818E6E1D /* NSDictionary+WBGAdd.m in Sources */,
+				856B8ABE21AD43798BAFCC08A9190335 /* NSIndexPath+column.m in Sources */,
+				0B00507360034340B36A560A2EC800BC /* ReuseQueue.m in Sources */,
+				846D5BAE4DE4A372A38042D413917AAF /* SpreadsheetView+CirclularScrolling.m in Sources */,
+				9A402E6F81C579D3AACF289028ADA6A1 /* SpreadsheetView+Layout.m in Sources */,
+				FFA6B8155EC841217136D6677C28F197 /* SpreadsheetView+Touches.m in Sources */,
+				26225C3502E612D78149FC9DA1341312 /* SpreadsheetView+UIScrollView.m in Sources */,
+				923B440A6F2FE665B53C970FE54975C2 /* SpreadsheetView+UIScrollViewDelegate.m in Sources */,
+				BFBD5810A1DEFB81FDD035972D75D520 /* SpreadsheetView+UISnapshotting.m in Sources */,
+				91316A3B29AC95C7A6F1DDD9440DD2C6 /* SpreadsheetView+UIViewHierarchy.m in Sources */,
+				BA89070AD0F92A94CAB861691432347C /* SpreadsheetView.m in Sources */,
+				BFDFC8F03C2CAE3F7A38BFA45232037A /* ZMJCell.m in Sources */,
+				48204CB1455945C44E247ED573CC72D1 /* ZMJCellRange.m in Sources */,
+				13317C93A7B4D8BF43515AC8D0047026 /* ZMJGanttChart-dummy.m in Sources */,
+				F8F6DF41C8ADBFAB08A2E2192BB2D6F5 /* ZMJLayoutEngine.m in Sources */,
+				25A81D2A24C2657C2181B062F559AEF6 /* ZMJScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DCF76850B3F27F477B6D6AD238A9422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A917091871A9837AAC2529667F615642 /* Pods-GanttChart-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7152E7D2757C42814A924982E0F73A9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZMJGanttChart;
+			target = 568F387913BDA07B26BCF6F335DEEDD1 /* ZMJGanttChart */;
+			targetProxy = D39F39AEB54EDEA3403E6A8D7B1955B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CEF86F90C1136DF430F6A11C77A4DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E50371D313A4F08FC6845C43F404AAFD /* ZMJGanttChart.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZMJGanttChart/ZMJGanttChart-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZMJGanttChart;
+				PRODUCT_NAME = ZMJGanttChart;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A6EF2536B77E92E10D497B4154F60434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B091A92B894B203D12E7B0C8158F3ED8 /* Pods-GanttChart.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D83190D8EFA5DA43C2F67613F7C87024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E50371D313A4F08FC6845C43F404AAFD /* ZMJGanttChart.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZMJGanttChart/ZMJGanttChart-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZMJGanttChart;
+				PRODUCT_NAME = ZMJGanttChart;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF49A8C2A1A4FD2FDB85A022E8A4BD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 542689B3CBE7DB047F480BA2EDE3AB7E /* Pods-GanttChart.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9BF1D364B8419DD94BA10DC3D7E6A0 /* Build configuration list for PBXNativeTarget "ZMJGanttChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CEF86F90C1136DF430F6A11C77A4DC6 /* Debug */,
+				D83190D8EFA5DA43C2F67613F7C87024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6F1BC168271D27CD0EA28D77CFFB5EC /* Build configuration list for PBXNativeTarget "Pods-GanttChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF49A8C2A1A4FD2FDB85A022E8A4BD46 /* Debug */,
+				A6EF2536B77E92E10D497B4154F60434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
