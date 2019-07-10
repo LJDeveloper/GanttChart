@@ -15,6 +15,7 @@
 		781281E322D56BA6005027DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781281E122D56BA6005027DB /* LaunchScreen.storyboard */; };
 		781281E622D56BA6005027DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 781281E522D56BA6005027DB /* main.m */; };
 		781281EE22D56F45005027DB /* ZMJCells.m in Sources */ = {isa = PBXBuildFile; fileRef = 781281EC22D56F45005027DB /* ZMJCells.m */; };
+		781281F022D595B3005027DB /* Simulator Screen Shot - iPhone 8 - 2019-07-10 at 11.34.13.png in Resources */ = {isa = PBXBuildFile; fileRef = 781281EF22D595B3005027DB /* Simulator Screen Shot - iPhone 8 - 2019-07-10 at 11.34.13.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		781281E522D56BA6005027DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		781281EC22D56F45005027DB /* ZMJCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMJCells.m; sourceTree = "<group>"; };
 		781281ED22D56F45005027DB /* ZMJCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMJCells.h; sourceTree = "<group>"; };
+		781281EF22D595B3005027DB /* Simulator Screen Shot - iPhone 8 - 2019-07-10 at 11.34.13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 - 2019-07-10 at 11.34.13.png"; sourceTree = "<group>"; };
 		FC3E0FB10B00E6DDDB5647B8 /* Pods-GanttChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GanttChart.release.xcconfig"; path = "Target Support Files/Pods-GanttChart/Pods-GanttChart.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 		781281D522D56BA4005027DB /* GanttChart */ = {
 			isa = PBXGroup;
 			children = (
+				781281EF22D595B3005027DB /* Simulator Screen Shot - iPhone 8 - 2019-07-10 at 11.34.13.png */,
 				781281ED22D56F45005027DB /* ZMJCells.h */,
 				781281EC22D56F45005027DB /* ZMJCells.m */,
 				781281D622D56BA4005027DB /* AppDelegate.h */,
@@ -161,6 +164,7 @@
 				781281E322D56BA6005027DB /* LaunchScreen.storyboard in Resources */,
 				781281E022D56BA6005027DB /* Assets.xcassets in Resources */,
 				781281DE22D56BA4005027DB /* Main.storyboard in Resources */,
+				781281F022D595B3005027DB /* Simulator Screen Shot - iPhone 8 - 2019-07-10 at 11.34.13.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
